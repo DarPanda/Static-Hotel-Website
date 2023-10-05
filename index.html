@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Safari Collection</title>
+    <link rel="stylesheet" href="/CSS/nav-foot.css">
+    <link rel="stylesheet" href="/CSS/index.css">
+    <script src="/Images/Slider/index.js"></script>
+</head>
+<body>
+    <nav id="navbar">
+        <div id="logo">
+            <img src="/Images/The-Safari-Collection-LOGO-65px.png" alt="The Safari Collection">
+        </div>
+        <ul>
+            <li class="items"><a href="/index.html" target="_blank">Home</a></li>
+            <li class="items"><a href="/stay.html" target="_blank">Stay</a></li>
+            <li class="items"><a href="/gallery.html" target="_blank">Gallery</a></li>
+            <li class="items"><a href="/footprint.html" target="_blank">Footprint</a></li>
+            <li class="items"><a href="/contactus.html" target="_blank">Contact Us</a></li>
+        </ul>
+    </nav>
+
+        <div class="home-top">
+            <img src="/Images/Home/pexels-git-stephen-gitau-1670732.jpg" alt="SAFARI">
+            <p>WE ARE</p>
+            <h1><strong>THE SAFARI COLLECTION</strong></h1>
+         </div>
+
+         <div class="safari">
+            <p class="bold">KENYA LUXURY SAFARI</p>
+            <p class="content">Join us on a Kenya luxury safari for the journey of a lifetime. Let us guide you to some of the most epic wildlife locations on earth. Experience close encounters with Africa’s ‘big five’ – lion, elephant, rhino, leopard and buffalo – and feel the essence of the continent running through your veins.</p><br>
+            <p class="content">The Safari Collection will immerse you in some of the most unique and unforgettable experiences. Begin your Kenya safari by sharing breakfast with the rare Rothschild’s giraffe. Afterwards, journey to see rhino in numbers found nowhere else in East Africa. Next, a sunset Samburu dance as elephant gather in the river beyond. Then onto the great wildebeest migration in one of the quietest corners of the Masai Mara. As you journey with us on your Kenya luxury safari, prepare to feel exhilarated by the things you will see and the people you’ll meet.</p><br>
+            <p class="content">The Safari Collection operates a collection of luxury lodges and camps in Kenya’s finest locations. We own Giraffe Manor and The Retreat in Nairobi, Sasaab in Samburu, Solio Lodge in Laikipia and Sala’s Camp in the Masai Mara. In addition, we are experts in creating the ultimate bucket-list adventures throughout Kenya and East Africa. So dream big, because whatever your vision, we would love to make it happen. Our passionate and energetic team are waiting to welcome you on your Kenya luxury safari.</p>
+         </div>
+
+         <div class="different">
+            <p class="bold">WHAT MAKES US DIFFERENT</p>
+            <p class="content">Our journeys are about so much more than simply seeing the big five. Whether it’s a short stay in one of our properties or a bespoke tour through the entire region, we offer a unique travel experience. If you really want to get under the skin of the country, then The Safari Collection is the right choice for you. We pride ourselves on sharing Kenya’s hidden gems and creating opportunities to make meaningful connections along the way. Ultimately, our personally hosted stays enable you to discover the true meaning of the word safari and discover why we are so passionate about making a difference. Our dedicated team are always on hand to share their first-hand knowledge of the region, which is part of what makes The Safari Collection so authentic.</p>
+         </div>
+
+         <div class="slider">
+            <img name="slide" width=100% height="700">
+         </div>
+
+         <div class="different">
+            <p class="bold">EXPERIENCES IN EAST AFRICA</p>
+            <p class="content">
+                If you are looking for a luxury safari in Kenya, these carefully considered itineraries are designed to impress. From total tranquillity through to edge-of-the-seat excitement, we’ve got it covered. Kenya and its surrounding countries certainly offer an endless playground for adventure. Feel the thrill of trekking through lush rainforest in search of mountain gorillas. Experience the wonder of close encounters with a huge range of wildlife. Discover a new world by snorkelling the turquoise waters of the Indian Ocean. Meet communities and cultures who will open your eyes to a different way of life. Whatever you choose, East Africa is a place to soothe the soul and make you feel totally alive. The giant landscapes, wide open spaces and abundant nature seem to have a calming effect on all who visit. Kenya is also considered to be a melting pot of cultures. As a result, you will encounter many different people, eager to welcome you with open arms along your journey. We’ll create the most perfect of family safari holidays and our safaris are by their very nature socially distant vacations, so let us share with you all that this magical part of the world has to offer.
+            </p>
+         </div>
+
+         <script>
+            var i = 0;
+var images = [];
+var time = 2000;
+
+
+images[0] = 'The-Safari-Collection-ariel-shot-of-giraffe-manor1.jpg';
+images[1] = 'Salas_Gallery-Keekorok-Honeymoon-Tent-View.jpg';
+images[2] = 'Salas_Gallery-Safari-Living-Arial-View.jpg';
+images[3] = 'sasaab-suite.jpg';
+images[4] = 'The-Safari-Collection-Sasaabs-oasis-gets-rejuvenated-with-the-rain.jpg';
+images[5] = 'Solio-Lodge-Room.jpg';
+images[6] = 'Solio-Lodge-The-Safari-Collection-Room-1.jpg';
+
+function changeImg(){
+    document.slide.src = images[i];
+
+
+if(i < images.length-1){
+    i++;
+} else{
+    i=0;
+}
+
+setTimeout("changeImg()", time);
+}
+
+window.onload = changeImg;
+         </script>
+
+    <footer>
+        <div class="footer-content">
+            <p>"Through our unique collection of spectacular properties, online shop and Footprint foundation, we unite sustainable tourism with wildlife conservation and communities, making a difference to people and planet."</p>
+            <ul class="socials">
+                <li><a href="https://www.facebook.com/TheSafariCollectionKenya/?ref=sgm" target="_blank"><img src="/Images/Footer/black-facebook-icon-744186.png" alt="Facebook"></a></li>
+                <li><a href="https://www.instagram.com/thesafaricollection/" target="_blank"><img src="/Images/Footer/toppng.com-instagram-icon-200x200.png" alt="Instagram"></a></li>
+                <li><a href="https://twitter.com/giraffe_manor" target="_blank"><img src="/Images/Footer/toppng.com-follow-me-gold-twitter-icon-vector-1005x817.png" alt="Twitter"></a></li>
+                <li><a href="https://www.youtube.com/c/thesafaricollectionkenya" target="_blank"><img src="/Images/Footer/Youtube-icon-symbol-on-transparent-background-PNG.png" alt="Youtube"></a></li>
+            </ul>
+            <a href="mailto:pdarpan22@tbc.edu.np" target="_blank" class="mail">pdarapan22@tbc.edu.np</a>
+        </div>
+        <div class="footer-bottom">
+            <p>Website by Darpan &copy; 2022|All Rights Reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
